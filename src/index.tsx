@@ -22,9 +22,10 @@ app.get("/", (c) => {
   return c.html(
     <Layout>
       <div class="card max-w-[960px] mx-auto mt-3">
+        <h1>Demo Links</h1>
         <div style={"display:flex; flex-direction: column;"}>
-          <a href="/clickme">Click Me Demo</a>
-          <a href="/infinite-scroll">Infinite Scroll Demo</a>
+          <a href="/clickme">Click Me</a>
+          <a href="/infinite-scroll">Infinite Scroll</a>
         </div>
       </div>
     </Layout>
