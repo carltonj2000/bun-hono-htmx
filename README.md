@@ -7,6 +7,11 @@ hono is not serverless and needs the server running all the time.
 Found this out then I tried deploying to vercel and only saw the
 built js code and not the output of the running js code.
 
+I selected Hono vs Elysia because it is marginally slower than Elysia
+and run on node vs bun which should make running node packages easier.
+Bun does have a node compatibility layer and should work with most/"all"
+node packages but I did not want to risk it for auth and db orm integration.
+
 ## Code History
 
 The in this repository is based on:
