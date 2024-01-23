@@ -12,6 +12,9 @@ and run on node vs bun which should make running node packages easier.
 Bun does have a node compatibility layer and should work with most/"all"
 node packages but I did not want to risk it for auth and db orm integration.
 
+Release procedure for AWS are documented at:
+`/intent/pages/docs/machines/aws/aws-ex1/README.md`
+
 ## Code History
 
 The in this repository is based on:

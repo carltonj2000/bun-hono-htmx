@@ -6,7 +6,7 @@
     "tw": "bunx tailwindcss -i ./src/styles.css -o ./public/styles.css",
     "build:hono": "bun build ./src/index.ts --target=node --outfile=./dist/index.mjs",
     "build": "bun run tw && bun run build:hono",
-    "preview": "node dist/index.mjs",
+    "start": "node dist/index.mjs",
     "db:push": "bunx drizzle-kit push:sqlite",
     "db:studio": "bunx drizzle-kit studio",
     "compile": "bun build ./src/index.tsx --compile --outfile=my-app"

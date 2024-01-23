@@ -25,7 +25,7 @@ app.get("/", (c) => {
         <h1>Demo Links</h1>
         <div style={"display:flex; flex-direction: column;"}>
           <a href="/clickme">Click Me</a>
-          <a href="/infinite-scroll">Infinite Scroll</a>
+          <a href="/infinite-scroll">Infinite Scroll (not done)</a>
         </div>
       </div>
     </Layout>
